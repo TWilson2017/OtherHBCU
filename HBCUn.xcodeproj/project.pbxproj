@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18167CA01ECE301D00958A90 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18167C9F1ECE301D00958A90 /* TableViewCell.swift */; };
+		18167CA61ECE516400958A90 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18167CA51ECE516400958A90 /* File.swift */; };
 		18B1A7A31ECD42FD00BB2BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1A7A21ECD42FD00BB2BA0 /* AppDelegate.swift */; };
 		18B1A7A51ECD42FD00BB2BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1A7A41ECD42FD00BB2BA0 /* ViewController.swift */; };
 		18B1A7A81ECD42FD00BB2BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1A7A61ECD42FD00BB2BA0 /* Main.storyboard */; };
 		18B1A7AA1ECD42FD00BB2BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B1A7A91ECD42FD00BB2BA0 /* Assets.xcassets */; };
 		18B1A7AD1ECD42FD00BB2BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1A7AB1ECD42FD00BB2BA0 /* LaunchScreen.storyboard */; };
-		18B1A7B81ECD42FD00BB2BA0 /* HBCUnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1A7B71ECD42FD00BB2BA0 /* HBCUnTests.swift */; };
-		18B1A7C31ECD42FD00BB2BA0 /* HBCUnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1A7C21ECD42FD00BB2BA0 /* HBCUnUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18B1A79F1ECD42FD00BB2BA0 /* HBCUn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBCUn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18167C611ECE112E00958A90 /* HBCUnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCUnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18167C621ECE112E00958A90 /* HBCUnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCUnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18167C9F1ECE301D00958A90 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		18167CA51ECE516400958A90 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		18B1A7A21ECD42FD00BB2BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B1A7A41ECD42FD00BB2BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B1A7A71ECD42FD00BB2BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B1A7A91ECD42FD00BB2BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B1A7AC1ECD42FD00BB2BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B1A7AE1ECD42FD00BB2BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18B1A7B31ECD42FD00BB2BA0 /* HBCUnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCUnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18B1A7B71ECD42FD00BB2BA0 /* HBCUnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBCUnTests.swift; sourceTree = "<group>"; };
-		18B1A7B91ECD42FD00BB2BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18B1A7BE1ECD42FD00BB2BA0 /* HBCUnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCUnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18B1A7C21ECD42FD00BB2BA0 /* HBCUnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBCUnUITests.swift; sourceTree = "<group>"; };
-		18B1A7C41ECD42FD00BB2BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1A7D01ECDD9D300BB2BA0 /* HBCUn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBCUn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,55 +72,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18167CA31ECE46FB00958A90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B1A7A61ECD42FD00BB2BA0 /* Main.storyboard */,
+				18167CA51ECE516400958A90 /* File.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18167CA41ECE470C00958A90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B1A7A41ECD42FD00BB2BA0 /* ViewController.swift */,
+				18167C9F1ECE301D00958A90 /* TableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		18B1A7961ECD42FD00BB2BA0 = {
 			isa = PBXGroup;
 			children = (
 				18B1A7A11ECD42FD00BB2BA0 /* HBCUn */,
-				18B1A7B61ECD42FD00BB2BA0 /* HBCUnTests */,
-				18B1A7C11ECD42FD00BB2BA0 /* HBCUnUITests */,
-				18B1A7A01ECD42FD00BB2BA0 /* Products */,
+				18B1A7D01ECDD9D300BB2BA0 /* HBCUn.app */,
+				18167C611ECE112E00958A90 /* HBCUnTests.xctest */,
+				18167C621ECE112E00958A90 /* HBCUnUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		18B1A7A01ECD42FD00BB2BA0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18B1A79F1ECD42FD00BB2BA0 /* HBCUn.app */,
-				18B1A7B31ECD42FD00BB2BA0 /* HBCUnTests.xctest */,
-				18B1A7BE1ECD42FD00BB2BA0 /* HBCUnUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		18B1A7A11ECD42FD00BB2BA0 /* HBCUn */ = {
 			isa = PBXGroup;
 			children = (
 				18B1A7A21ECD42FD00BB2BA0 /* AppDelegate.swift */,
-				18B1A7A41ECD42FD00BB2BA0 /* ViewController.swift */,
-				18B1A7A61ECD42FD00BB2BA0 /* Main.storyboard */,
+				18167CA41ECE470C00958A90 /* Controller */,
+				18167CA31ECE46FB00958A90 /* View */,
 				18B1A7A91ECD42FD00BB2BA0 /* Assets.xcassets */,
 				18B1A7AB1ECD42FD00BB2BA0 /* LaunchScreen.storyboard */,
 				18B1A7AE1ECD42FD00BB2BA0 /* Info.plist */,
 			);
 			path = HBCUn;
-			sourceTree = "<group>";
-		};
-		18B1A7B61ECD42FD00BB2BA0 /* HBCUnTests */ = {
-			isa = PBXGroup;
-			children = (
-				18B1A7B71ECD42FD00BB2BA0 /* HBCUnTests.swift */,
-				18B1A7B91ECD42FD00BB2BA0 /* Info.plist */,
-			);
-			path = HBCUnTests;
-			sourceTree = "<group>";
-		};
-		18B1A7C11ECD42FD00BB2BA0 /* HBCUnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18B1A7C21ECD42FD00BB2BA0 /* HBCUnUITests.swift */,
-				18B1A7C41ECD42FD00BB2BA0 /* Info.plist */,
-			);
-			path = HBCUnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +130,7 @@
 			);
 			name = HBCUn;
 			productName = HBCUn;
-			productReference = 18B1A79F1ECD42FD00BB2BA0 /* HBCUn.app */;
+			productReference = 18B1A7D01ECDD9D300BB2BA0 /* HBCUn.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18B1A7B21ECD42FD00BB2BA0 /* HBCUnTests */ = {
@@ -160,7 +148,7 @@
 			);
 			name = HBCUnTests;
 			productName = HBCUnTests;
-			productReference = 18B1A7B31ECD42FD00BB2BA0 /* HBCUnTests.xctest */;
+			productReference = 18167C611ECE112E00958A90 /* HBCUnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		18B1A7BD1ECD42FD00BB2BA0 /* HBCUnUITests */ = {
@@ -178,7 +166,7 @@
 			);
 			name = HBCUnUITests;
 			productName = HBCUnUITests;
-			productReference = 18B1A7BE1ECD42FD00BB2BA0 /* HBCUnUITests.xctest */;
+			productReference = 18167C621ECE112E00958A90 /* HBCUnUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +204,7 @@
 				Base,
 			);
 			mainGroup = 18B1A7961ECD42FD00BB2BA0;
-			productRefGroup = 18B1A7A01ECD42FD00BB2BA0 /* Products */;
+			productRefGroup = 18B1A7961ECD42FD00BB2BA0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -260,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B1A7A51ECD42FD00BB2BA0 /* ViewController.swift in Sources */,
+				18167CA61ECE516400958A90 /* File.swift in Sources */,
+				18167CA01ECE301D00958A90 /* TableViewCell.swift in Sources */,
 				18B1A7A31ECD42FD00BB2BA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B1A7B81ECD42FD00BB2BA0 /* HBCUnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B1A7C31ECD42FD00BB2BA0 /* HBCUnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HBCUn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HBCUn;
@@ -424,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HBCUn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HBCUn;
@@ -505,6 +495,7 @@
 				18B1A7C91ECD42FD00BB2BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B1A7CA1ECD42FD00BB2BA0 /* Build configuration list for PBXNativeTarget "HBCUnTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +504,7 @@
 				18B1A7CC1ECD42FD00BB2BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B1A7CD1ECD42FD00BB2BA0 /* Build configuration list for PBXNativeTarget "HBCUnUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +513,7 @@
 				18B1A7CF1ECD42FD00BB2BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

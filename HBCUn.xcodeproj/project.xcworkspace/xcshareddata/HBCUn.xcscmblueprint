@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1C0CCE68346B42E6CC03B47216CAD2DBAE76748",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F1C0CCE68346B42E6CC03B47216CAD2DBAE76748" : 9223372036854775807,
+    "D14E3BF63F3748B4297CFBAB9886B45D708B6B96" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12B15BBA-9025-409C-B604-8863CC8E474C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F1C0CCE68346B42E6CC03B47216CAD2DBAE76748" : "HBCUn\/",
+    "D14E3BF63F3748B4297CFBAB9886B45D708B6B96" : "HBCUn\/HBCUn\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HBCUn",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HBCUn.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TWilson2017\/HBCUnion.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D14E3BF63F3748B4297CFBAB9886B45D708B6B96"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TWilson2017\/OtherHBCU.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1C0CCE68346B42E6CC03B47216CAD2DBAE76748"
+    }
+  ]
+}
